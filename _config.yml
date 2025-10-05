@@ -1,0 +1,20 @@
+title: The Analyst's Lab
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Navbar links
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Navigation
+collections:
+  pages:
+    output: true
+
